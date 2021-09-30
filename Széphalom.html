@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Széphalom</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+
+        .center
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid
+
+        {
+            display: grid;
+            grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        }
+
+        .grid * {grid-column: md;}
+        .grid-xl {grid-column: xl;}
+
+        @media (max-width: 672px)
+        {
+            :root 
+            {
+                font-size: 75%;
+            };
+        }
+
+        is-paddingless-horizontal {padding-left: 0; padding-right: 0;}
+
+    </style>
+  </head>
+  <body>
+  
+    <nav class="navbar is-large is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="http://www.szlgbp.sulinet.hu/">
+             Tanulmányi kirándulás
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="Kezdőlap.html" class="navbar-item">
+              Főoldal
+            </a>
+  
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  1. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item" href="Hollókő.html">
+                    Hollókő
+                  </a>
+                  <a href="Aggtelek.html" class="navbar-item">
+                    Aggtelek
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+    
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  2. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a href="Vizsoly.html" class="navbar-item">
+                    Vizsoly
+                  </a>
+                  <a href="Boldogkővár.html" class="navbar-item">
+                    Boldogkővár
+                  </a>
+                  <a href="Sárospatak.html"class="navbar-item">
+                    Sárospatak
+                  </a>
+                  <a class="navbar-item is-active">
+                    Széphalom
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+    
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  3. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a href="Füzér.html" class="navbar-item">
+                    Füzér
+                  </a>
+                  <a href="Lillafüred.html" class="navbar-item">
+                    Lillafüred
+                  </a>
+                  <a href="Miskolctapolca.html" class="navbar-item">
+                    Miskolctapolca
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+  
+          </div>
+  
+          <div class="navbar-end">
+            <a href="Források.html" class="navbar-item">
+                Források
+            </a>
+          </div>
+        </div>
+      </nav>
+      
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+	    <div class="container grid">
+
+            <div class="section is-paddingless-horizontal">
+
+                <h1 class="title is-2 center">
+                    Széphalom
+                </h1>
+
+
+                <h2 class="subtitle is-3 center">
+                    Anyanyelvünk múzeuma
+                </h2>
+
+            </div>
+            <figure class="columns is-mobile is-variable is-2 is-marginless grid-xl">
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_20210909_160415.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_20210909_162043.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9354.jpg"></a>
+                    </figure>
+                </div>
+                
+            </figure>
+            <figcaption class="level has-text-grey">
+                <small class="level-item">Itt alussza örök álmát Kölcsey Ferenc</small>
+            </figcaption>
+
+            <div class="content is-medium">
+                <div class="content is-medium">
+					<p>
+						Itt két részre szakadtunk, a két szak külön-külön tette meg a túrát, mivel egy előadás zajlott az étteremben. Mi a kertrészt nézhettük meg elsőként.
+					</p>
+					<p>
+						Elsőként Kölcsey feleségének kertjén mentünk keresztül, majd a volt kúria mását néztük meg. A ház helyén ma már egy új épület áll, de a helye végig van rakva fehér táblás kövekkel. Következőnek Kölcsey nyughelyét néztük meg, majd utunk kint véget ért. 
+					</p>
+          <p>
+            A múzeum épületében végig követhettük Kölcsey életét. Itt kiderült az is, hogy szabadkőművesként tevékenykedett amiért várbörtönre ítélték. Különös magyar szavakkal is megismerkedhettünk és szavazhattunk az év szavára is. A két csapat egyesülése után a nap utolsó állomása a szállás volt.
+          </p>
+				</div>
+			</div>
+	    </div>
+    </section>
+  </body>
+</html>

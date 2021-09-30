@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aggtelek</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+
+        .center
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid
+
+        {
+            display: grid;
+            grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        }
+
+        .grid * {grid-column: md;}
+        .grid-xl {grid-column: xl;}
+
+        @media (max-width: 672px)
+        {
+            :root 
+            {
+                font-size: 75%;
+            };
+        }
+
+        is-paddingless-horizontal {padding-left: 0; padding-right: 0;}
+
+    </style>
+  </head>
+  <body>
+  
+    <nav class="navbar is-large is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="http://www.szlgbp.sulinet.hu/">
+             Tanulmányi kirándulás
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="Kezdőlap.html" class="navbar-item ">
+              Főoldal
+            </a>
+  
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  1. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item" href="Hollókő.html">
+                    Hollókő
+                  </a>
+                  <a class="navbar-item is-active">
+                    Aggtelek
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+    
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  2. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a href="Vizsoly.html" class="navbar-item">
+                    Vizsoly
+                  </a>
+                  <a href="Boldogkővár.html" class="navbar-item">
+                    Boldogkővár
+                  </a>
+                  <a href="Sárospatak.html"class="navbar-item">
+                    Sárospatak
+                  </a>
+                  <a href="Széphalom.html" class="navbar-item">
+                    Széphalom
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+    
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  3. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a href="Füzér.html" class="navbar-item">
+                    Füzér
+                  </a>
+                  <a href="Lillafüred.html" class="navbar-item">
+                    Lillafüred
+                  </a>
+                  <a href="Miskolctapolca.html" class="navbar-item">
+                    Miskolctapolca
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+  
+          </div>
+  
+          <div class="navbar-end">
+            <a href="Források.html" class="navbar-item">
+                Források
+            </a>
+          </div>
+        </div>
+      </nav>
+      
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+	    <div class="container grid">
+
+            <div class="section is-paddingless-horizontal">
+
+                <h1 class="title is-2 center">
+                    Aggtelek
+                </h1>
+
+
+                <h2 class="subtitle is-3 center">
+                    A cseppkő barlangok hazája
+                </h2>
+
+            </div>
+            <figure class="columns is-mobile is-variable is-2 is-marginless grid-xl">
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9243.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9246.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9251.jpg"></a>
+                    </figure>
+                </div>
+                
+            </figure>
+            <figcaption class="level has-text-grey">
+                <small class="level-item">Megcsodálhattunk több méteresnél is nagyobb csepkövet</small>
+            </figcaption>
+
+            <div class="content is-medium">
+                <div class="content is-medium">
+					<p>
+						Megérkezésünk után a helyi ajándék boltot vettük célkeresztünkbe. Sokan vásároltak érdekes, ámde annál inkább felesleges dolgokat. A pénzszórás után rövid várakozás, majd a túra következett.
+					</p>
+					<p>
+						Odalent 12 fok volt ami nem a legkellemesebb klíma több mint másfél óráig. Ez a Bardla-barlang leghosszab világítással rendelkező része mintegy 2300 m hosszú. 
+					</p>
+          <p>
+            A barlangi patak medre mentén haladtunk nagyrészt mely nagy esőzések vagy hóolvadások után több méteresre is duzzadhat. Végig színpompás cseppkőoszlopok és érdekes történetek jellemezték utunkat.
+          </p>
+          <p>
+            A legnagyobb durranás a csilagvizsgáló fantázianévvel ellátott 19 m magas Csillagvizsgáló, a Sárkányfej és az Óriások terme melynek akkusztikája elvarázsolt mindnyájunkat.
+          </p>
+          <p>
+            A túra végén rövid sétát tettünk a helyi tóhoz is amíg megérkezett a buszunk. Ekkor megindultunk szállásunk felé.
+          </p>
+				</div>
+			</div>
+	    </div>
+    </section>
+  </body>
+</html>

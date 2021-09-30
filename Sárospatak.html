@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sárospatak</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+
+        .center
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid
+
+        {
+            display: grid;
+            grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        }
+
+        .grid * {grid-column: md;}
+        .grid-xl {grid-column: xl;}
+
+        @media (max-width: 672px)
+        {
+            :root 
+            {
+                font-size: 75%;
+            };
+        }
+
+        is-paddingless-horizontal {padding-left: 0; padding-right: 0;}
+
+    </style>
+  </head>
+  <body>
+  
+    <nav class="navbar is-large is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="http://www.szlgbp.sulinet.hu/">
+             Tanulmányi kirándulás
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="Kezdőlap.html" class="navbar-item">
+              Főoldal
+            </a>
+  
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  1. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item" href="Hollókő.html">
+                    Hollókő
+                  </a>
+                  <a href="Aggtelek.html" class="navbar-item">
+                    Aggtelek
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+    
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  2. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a href="Vizsoly.html" class="navbar-item">
+                    Vizsoly
+                  </a>
+                  <a href="Boldogkővár.html" class="navbar-item">
+                    Boldogkővár
+                  </a>
+                  <a class="navbar-item is-active">
+                    Sárospatak
+                  </a>
+                  <a href="Széphalom.html" class="navbar-item">
+                    Széphalom
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+    
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  3. nap
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a href="Füzér.html" class="navbar-item">
+                    Füzér
+                  </a>
+                  <a href="Lillafüred.html" class="navbar-item">
+                    Lillafüred
+                  </a>
+                  <a href="Miskolctapolca.html" class="navbar-item">
+                    Miskolctapolca
+                  </a>
+                  <hr class="navbar-divider">
+                  <a href="Telkibánya.html" class="navbar-item">
+                    Telkibánya
+                  </a>
+                </div>
+              </div>
+  
+          </div>
+  
+          <div class="navbar-end">
+            <a href="Források.html" class="navbar-item">
+                Források
+            </a>
+          </div>
+        </div>
+      </nav>
+      
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+	    <div class="container grid">
+
+            <div class="section is-paddingless-horizontal">
+
+                <h1 class="title is-2 center">
+                    Sárospatak
+                </h1>
+
+
+                <h2 class="subtitle is-3 center">
+                    Az egyik legérdekesebb könyvtár
+                </h2>
+
+            </div>
+            <figure class="columns is-mobile is-variable is-2 is-marginless grid-xl">
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9344.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_20210909_144945.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_20210909_145506.jpg"></a>
+                    </figure>
+                </div>
+                
+            </figure>
+            <figcaption class="level has-text-grey">
+                <small class="level-item">Minden könyvnek saját története van</small>
+            </figcaption>
+
+            <div class="content is-medium">
+                <div class="content is-medium">
+					<p>
+						Sárospatakon első dolgunk volt megebédelni és egy kis sétát tenni a helyi nevezetességekhez. Egy kis gyrosétteremben való ebéd után a várfelé apácákkal is találkoztunk.
+					</p>
+					<p>
+						Visszaérvén a kollégiumhoz bevártuk a többi kóborló csapatot és bementünk a könyvtárba. Itt a legtöbb könyv felbecsülhetetlen értékű. Egy könyvben még Rákóczi Zsigmond erdélyi fejedelem aláírása is megtalálható.
+					</p>
+          <p>
+            A könyvtár a tanulók segítségével folyamatosan bővül. Hogy kifejezzék tiszteletüket az iskola felé sokan értékes régi könyveket ajándékoznak. Ezért még inkább értékelendő a könyvtár fennmaradása.
+          </p>
+          <p>
+            Sok könyv viszont hosszú harcok után tért vissza eredeti helyére. Az orosz katonák a második világháborúban ládákat vittek el innen amik könyvekkel voltak tele. Ezt több mint 50 év múlva szerezte vissza a köynvtár. Ebből egy tárlatot meg is csodálhattunk.
+          </p>
+          <p>
+            Miután végeztünk Széphalom felé vettük az irányt.
+          </p>
+				</div>
+			</div>
+	    </div>
+    </section>
+  </body>
+</html>

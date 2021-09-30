@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hollókő</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+
+        .center
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid
+
+        {
+            display: grid;
+            grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        }
+
+        .grid * {grid-column: md;}
+        .grid-xl {grid-column: xl;}
+
+        @media (max-width: 672px)
+        {
+            :root 
+            {
+                font-size: 75%;
+            };
+        }
+
+        is-paddingless-horizontal {padding-left: 0; padding-right: 0;}
+
+    </style>
+  </head>
+  <body>
+  
+    <nav class="navbar is-large is-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://www.szlgbp.sulinet.hu/">
+           Tanulmányi kirándulás
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a href="Kezdőlap.html" class="navbar-item">
+            Főoldal
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                1. nap
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item is-active">
+                  Hollókő
+                </a>
+                <a href="Aggtelek.html" class="navbar-item">
+                  Aggtelek
+                </a>
+                <hr class="navbar-divider">
+                <a href="Telkibánya.html" class="navbar-item">
+                  Telkibánya
+                </a>
+              </div>
+            </div>
+  
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                2. nap
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a href="Vizsoly.html" class="navbar-item">
+                  Vizsoly
+                </a>
+                <a href="Boldogkővár.html" class="navbar-item">
+                  Boldogkővár
+                </a>
+                <a href="Sárospatak.html"class="navbar-item">
+                  Sárospatak
+                </a>
+                <a href="Széphalom.html" class="navbar-item">
+                  Széphalom
+                </a>
+                <hr class="navbar-divider">
+                <a href="Telkibánya.html" class="navbar-item">
+                  Telkibánya
+                </a>
+              </div>
+            </div>
+  
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                3. nap
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a href="Füzér.html" class="navbar-item">
+                  Füzér
+                </a>
+                <a href="Lillafüred.html" class="navbar-item">
+                  Lillafüred
+                </a>
+                <a href="Miskolctapolca.html" class="navbar-item">
+                  Miskolctapolca
+                </a>
+                <hr class="navbar-divider">
+                <a href="Telkibánya.html" class="navbar-item">
+                  Telkibánya
+                </a>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="navbar-end">
+          <a href="Források.html" class="navbar-item">
+              Források
+          </a>
+        </div>
+      </div>
+    </nav>
+      
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+	    <div class="container grid">
+
+            <div class="section is-paddingless-horizontal">
+
+                <h1 class="title is-2 center">
+                    Hollókő
+                </h1>
+
+
+                <h2 class="subtitle is-3 center">
+                    Az első megállónk
+                </h2>
+
+            </div>
+            <figure class="columns is-mobile is-variable is-2 is-marginless grid-xl">
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9212.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_9204.jpg"></a>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image card">
+                        <a><img src="./Képek/IMG_20210908_094133.jpg"></a>
+                    </figure>
+                </div>
+                
+            </figure>
+            <figcaption class="level has-text-grey">
+                <small class="level-item">A felújítás alatt lévő várat is megtekinthettük</small>
+            </figcaption>
+
+            <div class="content is-medium">
+                <div class="content is-medium">
+					<p>
+						Egy kis reggeli séta után elősször a várat néztük meg, viszont csak kívűlről mivel felújítás alatt áll. Ezután egy kis túra és pihenő következett. Miközben sokan reggelijüket majszolták a palócmúzeum és a szövőműhely épületét is megnéztük majd csatlakoztunk a csoporthoz. A falumúzeum volt a következő célállomás.
+					</p>
+          <p>
+            Itt megtudhattuk hogy az ágyakon általában aludni szoktak és azt is, hogyan éltek a helyiek. Ezen információk feldolgozása után már úton is voltunk Aggtelekre.
+          </p>
+				</div>
+			</div>
+	    </div>
+    </section>
+  </body>
+</html>
